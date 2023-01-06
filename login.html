@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="loginB">
+    <div class="containerL">
+        <h1 class="label">User Login</h1>
+        <hr width="100%"" color="black">
+        <form class="login_form" action="axolotl.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or Phone</div>
+            <input autocomplete="off" type="text" name="email">
+            <div id="email_error">Please fill up your Email or Phone</div>
+            <div class="font2">Password</div>
+            <input type="password" name="password">
+            <div id="password_error">Please fill up your Password</div>
+            <button type="submit">Login</button>
+        </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

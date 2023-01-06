@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body.loginB{
+    font-family: Arial;
+    background: url(5bd39af810f17-wallpaper-preview.jpg);
+    background-size: no-repeat;
+    background-size: cover;
+    animation: change 50s infinite ease-in-out;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.containerL{
+    position: relative;
+    margin-top:250px;
+    width: 450px;
+    height: auto;
+    background:#fa88c3;
+    border-radius:5px;
+}
+
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+}
+
+.login_form{
+    padding: 20px 40px;
+}
+
+.logim_form .font{
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+}
+
+.login_form input{
+    height: 40px;
+    width: 350px;
+    padding:0px 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.login_form .font2{
+    margin-top: 20px;
+}
+
+.login_form button{
+    margin :35px 0 20px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    background:#c35588;
+    font-weight: bold;
+    border-radius: 3px;
+    border:1px solid silver
+}
+
+.login_form #email_error,
+.login_form #password_error{
+    margin-top:5px;
+    width: 345px;
+    font-size: 18px;
+    color: red;
+    background: rgb(255, 0, 0,0.1);
+    display: none;
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid silver;
+}
+
+body.back{
+    font-family: Arial;
+    background: url(5bd39af810f17-wallpaper-preview.jpg);
+    background-size: no-repeat;
+    background-size: cover;
+    animation: change 50s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(gambar/5bd39af810f17-wallpaper-preview.jpg);
+    }
+    20%
+    {
+        background-image: url(gambar/axolotl-2193310_1280.jpg);
+    }
+    40%
+    {
+        background-image: url(gambar/axolotl-2412189_1280.jpg);
+    }
+    60%
+    {
+        background-image: url(gambar/Axolotl-Hd-Wallpaper-4k-Download-Full-Screen.jpg);
+    }
+    80%
+    {
+        background-image: url(gambar/underwater-axolotl-portrait-close-up-in-an-aquarium-mexican-walking-fish-ambystoma-mexicanum.jpg);
+    }
+    100%
+    {
+        background-image: url(gambar/mexican-axolotl-2.jpg);
+    }
+
+}
+
+
+h1.A{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+
+
+.nav{
+    overflow: hidden;
+    background:#f999d4;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 70%;
+    transform: translate(-46%);
+}
+
+
+.nav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 23px 10px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.pic{
+    position: absolute;
+    transform: translate(1100%,-9%);
+}
+
+.pic img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.nav a:hover{
+    color:white;
+    background-color: #ce9abd;
+}
+
+.nav a.active{
+    background-color:#611d4f;
+    color: white;
+}
+
+.Picture{
+    position: absolute;
+    height: 93vh;
+    width: 100%;
+}
+
+.Picture2{
+    position: absolute;
+    height: 500vh;
+    width: 10%;
+    background :rgb(230, 148, 148);
+}
+
+.Picture h1.W{
+    border: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:15%;
+    left: 50%;
+    padding: 20px 30px;
+    color:#f999d4;
+    font-size: 90px;
+    text-align: center;
+    width: 900px;
+}
+
+.p1{
+    border: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:22%;
+    left: 50%;
+    padding: 20px 30px;
+    color:#f999d4;
+    text-align: center;
+    font-size:30px;
+    width: 900px;
+}
+
+.p2{
+    border: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:27%;
+    left: 50%;
+    padding: 20px 30px;
+    color:#f999d4;
+    font-size: 30px;
+}
+
+body{
+    font-family: Arial;
+    background :#c35588;
+}
+
+
+.Picture{
+    margin: 10px auto;
+    margin-right:100px ;
+    position: absolute;
+}
+
+.container{
+    display: grid;
+    gap: 16px;
+}
+
+
+.box{
+    height: 70px;
+    padding: 20px;
+    width: 1000px;
+    transform: translate(18%,20%);
+    border: 3px solid balck;
+    background-color:#fa88c3;
+    box-shadow: 0px 5px 10px black;
+}
+
+.box2{
+    height: 600px;
+    padding: 20px;
+    width: 1000px;
+    transform: translate(18%,5%);
+    border: 3px solid balck;
+    background-color: #fa88c3;
+    box-shadow: 0px 5px 10px black;
+}
+
+.box3{
+    height: 1820px;
+    padding: 20px;
+    width: 1000px;
+    margin-bottom: 85px;
+    transform: translate(18%,2%);
+    border: 3px solid balck;
+    background-color: #fa88c3;
+    box-shadow: 0px 5px 10px black;
+}
+
+.box3 img{
+    transform: translate(30%,9%);
+}
+
+.box4{
+    height: 150px;
+    padding: 20px;
+    width: 1000px;
+    transform: translate(18%,12%);
+    border: 3px solid balck;
+    background-color:#fa88c3;
+    box-shadow: 0px 5px 10px black;
+}
+
+.box5{
+    height: 100px;
+    padding: 20px;
+    width: 1000px;
+    transform: translate(18%,21%);
+    border: 3px solid balck;
+    background-color:#fa88c3;
+    box-shadow: 0px 5px 10px black;
+}
+
+.box6{
+    height: 420px;
+    padding: 20px;
+    width: 1000px;
+    transform: translate(18%,9%);
+    border: 3px solid balck;
+    background-color:#fa88c3;
+    box-shadow: 0px 5px 10px black;
+    margin-bottom: 85px;
+}
+
+
+
